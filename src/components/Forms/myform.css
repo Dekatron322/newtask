@@ -1,0 +1,77 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.input {
+    width: 400px;
+    height: 45px;
+    outline: none;
+    margin-bottom: 16px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(220, 220, 220);
+}
+
+.signup__body{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    color: #ffffff;
+}
+
+.button {
+    height: 45px;
+    width: 400px;
+    background-color: #650585;
+    color: #F2F2F2;
+    border-radius: 8px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-list h2{
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.user-list{
+    width: 400px;
+}
+
+.list__of-users{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+li{
+    color: #ffffff;
+}
+
+.list__buttons{
+    display: flex;
+    width: 380px;
+    gap: 20px;
+    justify-content: end;
+}
+
+.edit-button{
+    background: none;
+    color: greenyellow;
+}
+
+.delete-button{
+    color: red;
+}
